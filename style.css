@@ -1200,3 +1200,20 @@ ul.s {
 .imgbx img:hover {
   filter: grayscale(0);
 }
+
+img {
+    max-width: 100%
+}
+
+/* @media only screen and (max-width: 600px) {
+  body {
+    font-weight: 100;
+    /* background-color: lightblue; 
+  }
+} */
+
+@media (max-device-width: 218px) and (max-device-height: 281px) {
+  img {
+    max-width: 100%;
+  }
+}
